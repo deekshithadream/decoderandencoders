@@ -17,6 +17,7 @@ module tb_Encoder8_3;
   #10 IN=8'b00000000;
  end
 endmodule
+
 // Starts with IN = 8'b00000000, meaning no active bits.
 // Sequentially sets IN from 10000000 down to 00000001, triggering different output values.
 // Each change happens every 10 time units.
